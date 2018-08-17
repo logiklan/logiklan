@@ -1,3 +1,3 @@
 # Logiklan
 
-The landing page for Logiklan.net
+The home page for Logiklan.net
