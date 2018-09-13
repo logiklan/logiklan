@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ margin: 0 }}>
           {siteTitle}
       </h1>
-      <img src={logo}/>
+      <img src={logo} alt="logo"/>
       </Link>
     </div>
   </div>
