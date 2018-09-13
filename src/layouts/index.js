@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
+import HeroHeader from '../components/HeroHeader';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -14,7 +15,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} logo={data.site.siteMetadata.logo}/>
+    <HeroHeader siteTitle={data.site.siteMetadata.title}/>
     <div
       style={{
         margin: '0 auto',
