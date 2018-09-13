@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Henrique Oliveira <henrique.j.oliveira1@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.277",
+    "gatsby": "^2.0.0-alpha",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-postcss": "^1.0.0",
     "gatsby-plugin-react-helmet": "^2.0.11",
