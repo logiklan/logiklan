@@ -1,5 +1,9 @@
 :local(.hero) {
-  h1,h2 {
+  background-color: #1e1e1e;
+  margin-bottom: 1.45rem;
+  height: 600px;
+  text-align: center;
+  h1 {
     opacity: 0.9;
     color: red;
   }
