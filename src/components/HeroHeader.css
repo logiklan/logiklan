@@ -1,0 +1,6 @@
+:local(.hero) {
+  h1,h2 {
+    opacity: 0.9;
+    color: red;
+  }
+}
