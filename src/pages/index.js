@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../components/layout'
+import Nav from '../components/Nav'
 
 const IndexPage = () => (
   <div>
+    <Nav />
     <Layout />
     <section 
        style={{
