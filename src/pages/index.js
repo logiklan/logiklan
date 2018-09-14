@@ -5,10 +5,19 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <div>
     <Layout />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <section 
+       style={{
+         margin: '0 auto',
+         maxWidth: 960,
+         padding: '0px 1.0875rem 1.45rem',
+         paddingTop: 0,
+        }}
+        >
+        <h1>Hello!</h1>
+    <p>Welcome to LogikLAN.</p>
+    <p>Game on.</p>
     <Link to="/page-2/">Go to page 2</Link>
+    </section>
   </div>
 )
 
